@@ -25,8 +25,8 @@
                 <span class="caret"></span>
             </button>
             <ul class="dropdown-menu">
-                <router-link class="dropdown-item" to="/botiga/alimentacio">Alimentació</router-link>
-                <router-link class="dropdown-item" to="/botiga/congelats">Congelats</router-link>
+                <button class="dropdown-item" @click="goTo('Alimentacio')">Alimentació</button>
+                <button class="dropdown-item" @click="goTo('Congelats')">Congelats</button>
             </ul>   
         </div>
       </li>
@@ -48,6 +48,13 @@
 <script>
 export default {
   name: 'Navigation',
+  methods:{
+    goTo(section){
+      this.$router.push({
+        name:section
+      }).catch(()=>{})
+    }
+  }
   
 }
 
