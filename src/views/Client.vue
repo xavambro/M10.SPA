@@ -6,13 +6,6 @@
     </div>
 </template>
 
-<script>
-export default {
-    name:'Client',
-    methods:{
-        previous(){
-            this.$router.go(-1)
-        }
-    }
-}
+<script src='../scripts/client.js'>
+
 </script>

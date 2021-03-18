@@ -13,16 +13,8 @@
   </div>
 </template>
 
-<script>
-export default {
-  
-    name:'Clients',
-    data(){
-        return{
-            clients:['Xavi','Jordi','Joan','Enriqueta']
-        }
-    }
-}
+<script src='../scripts/clients.js'>
+
 </script>
 
 <style scoped>
