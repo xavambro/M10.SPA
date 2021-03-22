@@ -30,15 +30,6 @@
             </ul>   
         </div>
       </li>
-      <!-- <li class="nav-item dropdown">
-        <router-link class="nav-link dropdown-toggle"  to="/botiga" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Botiga
-        </router-link>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <router-link class="dropdown-item" to="/botiga/alimentacio">Alimentació</router-link>
-            <router-link class="dropdown-item" to="/botiga/congelats">Congelats</router-link> 
-        </div>
-      </li> -->
     </ul>
   </div>
 </nav>

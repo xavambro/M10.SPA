@@ -3,7 +3,10 @@ export default {
     methods:{
       goTo(section){
         this.$router.push({
-          name:section
+          name:'TipusBotiga',
+          params:{
+            tipus:section
+          }
         }).catch(()=>{})
       }
     }
