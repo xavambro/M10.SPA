@@ -25,8 +25,8 @@
                 <span class="caret"></span>
             </button>
             <ul class="dropdown-menu">
-                <button class="dropdown-item" @click="goTo('Alimentacio')">Alimentació</button>
-                <button class="dropdown-item" @click="goTo('Congelats')">Congelats</button>
+                <button class="dropdown-item" @click="$store.commit('setCurrent','Alimentacio')">Alimentació</button>
+                <button class="dropdown-item" @click="$store.commit('setCurrent','Congelats')">Congelats</button>
             </ul>   
         </div>
       </li>

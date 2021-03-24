@@ -42,14 +42,7 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "botiga" */ '../views/Botiga.vue')
   },
-  {
-    path: '/botiga/:tipus',
-    name: 'TipusBotiga',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "tipusBotiga" */ '../views/TipusBotiga.vue')
-  },
+  
   {
     path: '/clients/:name',
     name: 'Client',
